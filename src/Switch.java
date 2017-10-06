@@ -4,29 +4,29 @@ public class Switch {
 
 	public static void main(String[] args) {
 		System.out.println("Elige una de estas opciones:");
-		System.out.println("1. Grabar CD audio");
-		System.out.println("2. Grabar CD datos");
-		System.out.println("3. Guardar CD en disco D");
-		System.out.println("4. Copiar CD a CD");
+		System.out.println("A. Grabar CD audio");
+		System.out.println("B. Grabar CD datos");
+		System.out.println("C. Guardar CD en disco D");
+		System.out.println("D. Copiar CD a CD");
 		System.out.println("Pulsa un botón de estos:");
 		
 		Scanner lector = new Scanner(System.in);
-		int caso = lector.nextInt();
+		String caso = lector.nextLine();
 		
 		switch (caso){
-			case 1:
+			case "A":
 				System.out.println("Grabando CD...");
 			break;
 			
-			case 2:
+			case "B":
 				System.out.println("Grabando CD...");
 			break;
 			
-			case 3:
+			case "C":
 				System.out.println("Guardando datos en disco D...");
 			break;
 			
-			case 4:
+			case "D":
 				System.out.println("Copiando CD...");
 			break;
 			
