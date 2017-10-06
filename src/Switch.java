@@ -11,22 +11,23 @@ public class Switch {
 		System.out.println("Pulsa un botón de estos:");
 		
 		Scanner lector = new Scanner(System.in);
-		String caso = lector.nextLine();
+		String casoString = lector.nextLine();
+		char caso = casoString.charAt(0);
 		
 		switch (caso){
-			case "A":
+			case 'A':
 				System.out.println("Grabando CD...");
 			break;
 			
-			case "B":
+			case 'B':
 				System.out.println("Grabando CD...");
 			break;
 			
-			case "C":
+			case 'C':
 				System.out.println("Guardando datos en disco D...");
 			break;
 			
-			case "D":
+			case 'D':
 				System.out.println("Copiando CD...");
 			break;
 			
