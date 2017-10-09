@@ -6,7 +6,7 @@ public class While {
 		System.out.println("Introduce un numero:");
 		Scanner lector = new Scanner(System.in);
 		int numero = lector.nextInt();
-		int contador = 0;
+		int contador = 1;
 		
 		while (contador <= numero){
 			System.out.println("contador: " + contador);
